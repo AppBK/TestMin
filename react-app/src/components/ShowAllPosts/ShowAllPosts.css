@@ -1,0 +1,19 @@
+.main-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.post-image {
+    flex: 1;
+    margin-bottom: 10px;
+    line-height: 0;
+}
+
+.post-image img {
+    height: 300px;
+    width: auto;
+    object-fit: contain;
+}
